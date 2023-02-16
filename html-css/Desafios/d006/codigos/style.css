@@ -1,0 +1,18 @@
+body{
+    background-color: blueviolet;
+    color: white;
+}
+
+abbr {
+    text-decoration: none;
+}
+
+div {
+    margin: auto;
+    width: 500px;
+}
+
+h1 {
+    text-align: center;
+    font-family: Verdana;
+}

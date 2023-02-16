@@ -1,0 +1,49 @@
+h1 {
+    color: white;
+    font-family: Verdana;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    font-family: Verdana;
+    text-align: center;
+}
+
+body {
+    background-color: darkgray;
+    width: 10px auto;
+}
+
+.perfil {
+    
+}
+
+.d2 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: red;
+}
+
+abbr {
+    text-decoration: none;
+    font-weight: bold;
+    color: red;
+}
+
+strong {
+    color: red;
+}
+
+li {
+    color: white;
+}
+
+p {
+    color: white;
+    text-align: center;
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/wow.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Imagem Flexível</title>
+</head>
+<body>
+    <div>
+        <h1>Imagem Flexível</h1>
+        <p>Você está vendo a imagem por complero? caso não, tente ampliar o tamanho da janela de seu navegador &#X1F92F;</p>
+        <picture>
+        <source media="(max-width:590px)" srcset="imagens/art-p.png" type="image/png">
+        <source media="(max-width: 1355px)" srcset="imagens/art-m.png" type="image/png">
+        <img src="imagens/art-g02.png" alt="grafite">
+        </picture>
+    </div>
+</body>
+</html>

@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(87, 87, 87);
+}
+
+.emojis {
+    background:rgba(0, 0, 0, 0.507);
+    height: 200px;
+}
+
+.emojis .simbol-01 {
+    background: rgba(228, 224, 224, 0.349);
+    float: left;
+    width: 300px;
+    height: 70%;
+}
+
+.emojis .simbol-02 {
+    background: rgba(228, 224, 224, 0.349);
+    float: right;
+    width: 300px;
+    height: 70%;
+}
+
+.img-mateus {
+    margin: 10px 0;
+    box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.507);
+}
+
+.simbolos span {
+    margin: 10px 5px;
+}
+
+.icon-raposa {
+    width: 30vw;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin: 10px 0;
+    min-width: 318px;
+}
+
+.caixa-raposa {
+    background-color: cornflowerblue;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    margin: 20px 0px;
+    padding: 10px;
+    border-radius: 160px;
+
+}
+
+.box-conteudo {
+    background: gray;
+    max-height: 85vh;
+    max-width: 95%;
+    min-width: 318px;
+    margin: 10px auto;
+    overflow: auto;
+    padding: 0 10px;
+}
+
+.conteudo-interno-box {
+    background: #fff;
+    max-width: 70%;
+    margin: 10px auto;
+    padding: 20px 50px;
+    box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.521);
+}
+
+.itens-compra {
+    margin: 20px 0;
+}
+
+.itens-compra .item-geral {
+    margin: 2px 0;
+    padding: 5px;
+    max-width: 70%;
+    display: inline;
+}
+
+.itens-compra-2 .item-geral {
+    margin: 2px auto;
+    padding: 5px;
+    max-width: 70%;
+}
+
+.item-1 {
+    background: gray;
+}
+
+.item-2 {
+    background: rgba(95, 94, 94, 0.849);
+    visibility: hidden;
+}
+
+.itens-compra .item-2 {
+    display: none;
+}
+
+.item-3 {
+    background:rgba(85, 85, 85, 0.521);
+}
+
+.caixa-lista {
+    background: rgba(0, 0, 0, 0.521);
+    display: flex;
+    height: 300px;
+    margin: 30px 0 0 0;
+}
+
+.position-list {
+    margin: 25px auto;
+    width: 50%;
+    max-width: 350px;
+    background: rgba(85, 85, 85, 0.521);
+    padding: 10px 0 0 0;
+    border-radius: 10px;
+    overflow: auto;
+}
+
+.position-list li {
+    background: #fff;
+    margin: 5px auto;
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.l1, .l3 {
+    left: 50px;
+}
+
+.l2, .l4 {
+    right: 50px;
+}
+
+.position-list ul {
+    line-height: 25px;
+    padding: 10px 0;
+}
+
+.position-list h3 {
+    width: 35%;
+    color: #fff;
+}
+
+/* teste para anotação */
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+
+.teste-relativo {
+    background: rgba(126, 49, 49, 0.849);
+    margin: 300px 0;
+    height: 300px;
+    width: 300px;
+    position: relative;
+}
+
+.relativo {
+    background: #fff;
+    height: 100px;
+    width: 100px;
+    left: 50px;
+    position: absolute;
+}
+
+.teste-relativo p {
+    text-align: center;
+}
+
+table {
+    text-align: center;
+    margin: 20px auto;
+    background:  rgba(85, 85, 85, 0.521);
+    width: 40%;
+    padding: 20px;
+    border: 2px solid rgba(85, 85, 85, 0.521);
+}
+
+tr {
+    margin-bottom: 2px;
+    border-radius: 5px;
+}
+
+tbody td:nth-of-type(odd) {
+    background: blue;
+}
+
+tbody td:nth-of-type(even) {
+    background: red;
+}
+
+
+
+
+
+
+.container {
+display: flex;
+width: 100vw;
+height: 100vh;
+justify-content: center;
+align-items: center;
+}
+
+.item2{    
+align-self: flex-start;
+}
